@@ -1,0 +1,22 @@
+# Quantum AI Chat 🔬🧠
+
+Quantum AI Chat is a Streamlit-based chatbot that interacts with a Quantum AI model, allowing users to ask quantum computing-related questions and execute quantum scripts.
+
+## Features
+- **Conversational AI**: Communicates with a Quantum AI endpoint.
+- **Quantum Script Execution**: Executes Cirq-based quantum scripts via an API.
+- **Session Persistence**: Saves and loads conversations for later reference.
+- **Streamlit UI**: User-friendly chat interface with sidebar controls.
+
+## Requirements
+
+- Python 3.8+
+- Internet connection for API requests
+- A running Quantum AI backend at `http://192.168.2.98:3000/`
+
+## Installation
+
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/OneNessQBAI/quantum-ai-chat.git
+   cd quantum-ai-chat
