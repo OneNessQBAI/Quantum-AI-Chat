@@ -52,7 +52,7 @@ class QuantumAIChatApp:
             response = requests.post(
                 "http://192.168.2.98:3000/chat", 
                 json={"message": user_message},
-                timeout=30
+                timeout=90
             )
             return response.json().get('response', 'No response from Quantum AI 🤖')
         except Exception as e:
