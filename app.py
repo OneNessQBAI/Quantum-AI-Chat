@@ -50,7 +50,7 @@ class QuantumAIChatApp:
         # Send request to Quantum AI endpoint
         try:
             response = requests.post(
-                "http://192.168.2.98:3000/chat", 
+                "http://142.117.62.233/chat", 
                 json={"message": user_message},
                 timeout=90
             )
@@ -62,7 +62,7 @@ class QuantumAIChatApp:
         # Execute quantum script via endpoint
         try:
             response = requests.post(
-                "http://192.168.2.98:3000/execute", 
+                "http://142.117.62.233:3000/execute", 
                 json={"quantum_script": quantum_script},
                 timeout=30
             )
