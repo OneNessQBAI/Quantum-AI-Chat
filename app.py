@@ -62,7 +62,7 @@ class QuantumAIChatApp:
         # Send request to Quantum AI endpoint
         try:
             response = requests.post(
-                "http://192.168.2.98:3000/chat", 
+                "http://142.117.62.233:3000/chat", 
                 json={
                     "message": user_message,
                     "api_key": api_key
@@ -123,7 +123,7 @@ class QuantumAIChatApp:
         
         # API Key Input
         api_key = st.sidebar.text_input(
-            "Enter API Key 🔑",
+            "Enter API Key 🔑www.QuantumIntelligence.a",
             type="password",
             value=st.session_state.get('api_key', ''),
             help="Your API key should start with 'oneness_'"
