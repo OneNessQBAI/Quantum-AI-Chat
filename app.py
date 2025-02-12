@@ -71,7 +71,7 @@ class QuantumAIChatApp:
                     "X-API-Key": api_key,
                     "Content-Type": "application/json"
                 },
-                timeout=30
+                timeout=90
             )
             
             if response.status_code == 401:
